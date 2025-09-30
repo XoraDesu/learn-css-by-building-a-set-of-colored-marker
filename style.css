@@ -1,0 +1,116 @@
+/* Reset dan base Style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #666;
+    margin-top: 0;
+    font-style: italic;
+}
+
+/* Container Spidol */
+.marker-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+
+/* Style Spidol */
+.marker {
+    width: 120px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cap {
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid #333;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    z-index: 2;
+}
+
+.sleeve {
+    width: 80px;
+    height: 150px;
+    border: 2px solid #333;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* warna spdiol */
+.red {
+    background: linear-gradient(to bottom, hsl(0, 100%, 50%), hsl(0, 100%, 40%)), hsl(0, 100%, 30%);
+}
+
+.green {
+    background: linear-gradient(to bottom, hsl(120, 100%, 50%), hsl(120, 100%, 35%)), hsl(120, 100%, 20%);
+}
+
+.blue {
+    background: linear-gradient(to bottom, hsl(240, 100%, 50%), hsl(240, 100%, 40%)), hsl(240, 100%, 30%);
+}
+
+/* informasi warna */
+.color-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.color-info h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.color-info ul [
+    padding-left: 20px;
+]
+
+.calor-info li {
+    margin-bottom: 8px;
+}
+
+/* responsive */
+@media (max-width: 600px) {
+    .marker-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .marker {
+        margin-bottom: 30px;
+    }
+}
