@@ -81,6 +81,13 @@ h1 {
     background: linear-gradient(to bottom, hsl(240, 100%, 50%), hsl(240, 100%, 40%)), hsl(240, 100%, 30%);
 }
 
+.cyan {
+    background: linear-gradient(to bottom, hsl(200, 100%, 50%), hsl(200, 100%, 40%)), hsl(200, 100%, 30%);
+}
+
+.magenta {
+    background: linear-gradient(to bottom, hsl(300, 100%, 50%), hsl(300, 100%, 40%)), hsl(300, 100%, 30%);
+}
 /* informasi warna */
 .color-info {
     background-color: #f9f9f9;
